@@ -33,16 +33,16 @@ search.addEventListener('submit', (event) => {
                 const container = document.getElementById("list");
                 container.innerHTML = "";
                 container.innerHTML +=`
-                <li>Name: ${randomElement.en}</li>
-                <li>Stage: ${randomElement.stage}</li>
-                <li>Location: ${randomElement.loc}</li>
-                <li>Type: ${randomElement.type}</li>
+                <li><b>Name:</b> ${randomElement.en}</li>
+                <li><b>Stage:</b> ${randomElement.stage}</li>
+                <li><b>Location:</b> ${randomElement.loc}</li>
+                <li><b>Type:</b> ${randomElement.type}</li>
                 `
                 }
 
             showData()
         }
         )
-        .catch((error) => { alert(error) })
+        .catch((error) => { alert('Try Again') })
 
 })
