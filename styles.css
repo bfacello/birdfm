@@ -27,3 +27,6 @@ html {
     list-style: none;
   }
   
+  audio, button {
+    background-color: pink;
+  }
